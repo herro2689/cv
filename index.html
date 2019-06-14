@@ -2,84 +2,71 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Handlee|Indie+Flower|Merriweather|Montserrat&display=swap" rel="stylesheet">
   <meta charset="utf-8">
-  <title>⏺Marc's Personal Site</title>
+  <title>Marc Herring - Web Developer</title>
 </head>
 
 <body>
-  <table cellspacing="10">
-    <tr>
-      <td> <img src="IMG_4690.png" alt="zachy golden retriever" style="width:250px;height:250px;" /></td>
-      <td>
-        <h1>Marc Herring</h1>
-        </p><em>Founder and CTO of <strong><a href="https://www.appbrewery.co">Herro Brewery</a></strong></em></p>
-        <p>I am a web developer and I love beer</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Another heading here</h3>
-  <ul>
-    <li>Web developer</li>
-    <li>Brewery</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2010-2012</td>
-        <td>Developer</td>
-      </tr>
-      <tr>
-        <td>2010</td>
-        <td>Researcher</td>
-      </tr>
-      <tr>
-        <td>2019</td>
-        <td>Analyst</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-<table cellspacing="10">
-  <tr>
-    <td>
-      <table>
-        <tr>
-          <td>iOS Development</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Photography</td>
-          <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-      </table>
-    </td>
-    <td>
-      <table>
-        <tr>
-          <td>iOS Development</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Photography</td>
-          <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact-me.html">Contact Me</a>
+  <div class="navbar">
+    <img class="nav-cloud" src="images/cloud.png" alt="cloud-img">
+    <div class="links">
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+  </div>
+  <div class="top-container">
+    <img class="top-cloud " src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Marc.</h1>
+    <h2>{a web developer}</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container" id="about">
+    <div class="profile">
+      <img class="profile" src="images/profile.png" alt="profile-img">
+      <h2>Hello.</h2>
+      <p>By night, I am an aspiring Junior Web Developer,</p>
+      <p>proficient in HTML and CSS and a beginner in Javascript.</p>
+      <p>By day, I am an IT Support Analyst 💻. I 💙 football, tennis, 🍺 and 🍕.</p>
+    </div>
+    <hr>
+    <div class="skills" id="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code" src="images/code.png" alt="code-img">
+        <h3>HTML, CSS & Javascript</h3>
+        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+      <div class="skill-row">
+        <img class="it" src="images/monitor.png" alt="monitor-img">
+        <h3>IT Analyst</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me" id="contact">
+      <h2>Get In Touch</h2>
+      <h3>Have a question? Just shout!</h3>
+      <p>I am happy to take on projects for free to build on my experience,</p>
+      <p>so please contact me to talk through your options.</p>
+      <a class="btn-cta" href="mailto:herrow3b@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <div class="footer-text">
+      <a class="footer-link" href="https://www.linkedin.com/in/marcherring">LinkedIn</a>
+      <a class="footer-link" href="https://instagram.com/herro2689">Instagram</a>
+      <a class="footer-link" href="https://www.github.com/herro2689">Github</a>
+      <p>© 2019 Marc Herring.</p>
+    </div>
+  </div>
+
 </body>
 
 </html>
